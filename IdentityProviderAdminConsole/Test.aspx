@@ -14,7 +14,7 @@
         <p>
             <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
 &nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="txtb_password" runat="server" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="txtb_password" runat="server"></asp:TextBox>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lbl_EncDataRec" runat="server" Text="Encrypted Data Received"></asp:Label>
         </p>
@@ -22,6 +22,17 @@
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lbl_DecryptedData" runat="server" Text="Decrypted Received Data"></asp:Label>
+        </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            <asp:Label ID="lbl_username" runat="server"></asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="lbl_userNickName" runat="server"></asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="lbl_address" runat="server"></asp:Label>
         </p>
         
     </div>

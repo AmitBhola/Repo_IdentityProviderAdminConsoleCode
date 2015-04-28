@@ -3,7 +3,10 @@
   <xs:complexType name="CompositeType">
     <xs:sequence>
       <xs:element minOccurs="0" name="BoolValue" type="xs:boolean" />
-      <xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EncryptedAndEncodedText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserAddr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserNickName" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="CompositeType" nillable="true" type="tns:CompositeType" />

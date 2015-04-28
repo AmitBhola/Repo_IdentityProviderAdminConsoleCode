@@ -26,7 +26,16 @@ namespace IdentityProviderAdminConsole.ServiceReference2 {
         private bool BoolValueField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string StringValueField;
+        private string EncryptedAndEncodedTextField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UserAddrField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UserNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UserNickNameField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -52,14 +61,53 @@ namespace IdentityProviderAdminConsole.ServiceReference2 {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string StringValue {
+        public string EncryptedAndEncodedText {
             get {
-                return this.StringValueField;
+                return this.EncryptedAndEncodedTextField;
             }
             set {
-                if ((object.ReferenceEquals(this.StringValueField, value) != true)) {
-                    this.StringValueField = value;
-                    this.RaisePropertyChanged("StringValue");
+                if ((object.ReferenceEquals(this.EncryptedAndEncodedTextField, value) != true)) {
+                    this.EncryptedAndEncodedTextField = value;
+                    this.RaisePropertyChanged("EncryptedAndEncodedText");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string UserAddr {
+            get {
+                return this.UserAddrField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UserAddrField, value) != true)) {
+                    this.UserAddrField = value;
+                    this.RaisePropertyChanged("UserAddr");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string UserName {
+            get {
+                return this.UserNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UserNameField, value) != true)) {
+                    this.UserNameField = value;
+                    this.RaisePropertyChanged("UserName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string UserNickName {
+            get {
+                return this.UserNickNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UserNickNameField, value) != true)) {
+                    this.UserNickNameField = value;
+                    this.RaisePropertyChanged("UserNickName");
                 }
             }
         }
