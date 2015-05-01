@@ -14,7 +14,7 @@
             <p>
                 Click the button below to add a new access control policy to the Policy Store</p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                <a class="btn btn-default" href="AddPolicyPage.aspx">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
